@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific files
+
+# Local dataset files
+data/*.csv
+data/*.parquet
+data/*.xlsx
+data/*.zip
+
+# Local environment and system files
+.DS_Store
