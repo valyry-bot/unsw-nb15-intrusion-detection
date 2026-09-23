@@ -1,0 +1,20 @@
+{
+    "model": "Decision Tree",
+    "max_depth": 3,
+    "classification_threshold": 0.5,
+    "feature_set": "Common engineered predictive feature set",
+    "engineered_features": [
+        "total_bytes",
+        "total_packets",
+        "bytes_ratio"
+    ],
+    "cross_validation": {
+        "strategy": "StratifiedKFold",
+        "n_splits": 5,
+        "shuffle": true,
+        "random_state": 42
+    },
+    "model_random_state": 42,
+    "primary_selection_metric": "Recall",
+    "independent_test_used_for_model_selection": false
+}
